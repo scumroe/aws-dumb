@@ -9,7 +9,9 @@ def getMenu(int):
     withdraw = ['Please select withdraw amount:\n', '10', '20', '40', '60', '80',\
                      '100', 'Other amoount', 'Return to main menu.']
 
-
+    menu = {}
+    menu[0] = "Welcome to Northern Frock.\nChoose an option from the list below\n\n"
+    menu[1] = "1.
     if int == 0:
         for main in main:
             print(main)
@@ -29,6 +31,7 @@ def main():
     getMenu(0)
     while getMenu(0):
         optMenu = input()]
+
 main()
 
 
