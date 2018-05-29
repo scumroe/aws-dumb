@@ -30,7 +30,7 @@ def withdrawaloptions(str):
 def main():
     getMenu(0)
     while getMenu(0):
-        optMenu = input()]
+        optMenu = input()
 
 main()
 
